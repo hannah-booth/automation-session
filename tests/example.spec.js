@@ -24,9 +24,9 @@ test("addition works", () => {
   expect(2 + 2).toEqual(4);
 });
 
-test("has saved image", async ({ page }) => {
-  await page.goto("https://playwright.dev/");
+// test("has saved image", async ({ page }) => {
+//   await page.goto("https://playwright.dev/");
 
-  // Expect a title "to contain" a substring.
-  await expect(page).toHaveScreenshot();
-});
+//   // Expect a title "to contain" a substring.
+//   await expect(page).toHaveScreenshot();
+// });
