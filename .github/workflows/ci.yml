@@ -1,0 +1,4 @@
+on: [push]
+  - runs-on: ubuntu-latest
+  - npm ci
+  - npx playwright test
