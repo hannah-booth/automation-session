@@ -21,7 +21,7 @@ test("get started link", async ({ page }) => {
 });
 
 test("addition works", () => {
-  expect(2 + 2).toEqual(5);
+  expect(2 + 2).toEqual(4);
 });
 
 // test("has saved image", async ({ page }) => {
